@@ -1,0 +1,168 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "paige turner",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "ReadPageIntent",
+                  "slots": [],
+                  "samples": [
+                      "Speak this page",
+                      "Read this page",
+                      "Read a page",
+                      "Speak the page",
+                      "Speak",
+                      "Please read",
+                      "Read",
+                      "Read page",
+                      "Read the page"
+                  ]
+              },
+              {
+                  "name": "SetCommandIntent",
+                  "slots": [
+                      {
+                          "name": "Command",
+                          "type": "CommandType"
+                      }
+                  ],
+                  "samples": [
+                      "activate {Command} mode",
+                      "move in a {Command}",
+                      "fire {Command}",
+                      "activate {Command}"
+                  ]
+              },
+              {
+                  "name": "TurnPageIntent",
+                  "slots": [],
+                  "samples": [
+                      "continue",
+                      "Go forward one page",
+                      "Next page",
+                      "Flip the page",
+                      "Turn the page"
+                  ]
+              }
+          ],
+          "types": [
+              {
+                  "name": "DirectionType",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "brake"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "go backward"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "go forward"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "go right"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "go left"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "right"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "left"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "backwards"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "backward"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "forwards"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "forward"
+                          }
+                      }
+                  ]
+              },
+              {
+                  "name": "CommandType",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "circle"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "square"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "patrol"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "cannon"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "all shot"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "sentry"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "one shot"
+                          }
+                      }
+                  ]
+              }
+          ]
+      }
+  }
+}
